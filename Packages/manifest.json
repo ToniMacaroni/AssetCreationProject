@@ -1,6 +1,15 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "FactoryCore",
+      "url": "http://195.90.208.226:4873",
+      "scopes": [
+        "com.factorycore"
+      ]
+    }
+  ],
   "dependencies": {
-    "com.tonimacaroni.sabertoolkit": "https://github.com/ToniMacaroni/SaberToolkit.git",
+    "com.factorycore.tonimacaroni.sabertoolkit": "0.1.3",
     "com.unity.collab-proxy": "1.2.16",
     "com.unity.ide.rider": "1.1.4",
     "com.unity.ide.vscode": "1.2.0",
