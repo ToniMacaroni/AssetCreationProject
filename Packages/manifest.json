@@ -41,11 +41,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  },
-  "lock": {
-    "com.tonimacaroni.sabertoolkit": {
-      "revision": "HEAD",
-      "hash": "5f0bf91685d812084e6903ffa325528d928d34c8"
-    }
   }
 }
