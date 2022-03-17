@@ -1,5 +1,5 @@
 # Asset Creation Project
-Base unity project for creating beat saber mod assets (sabers, notes, platforms, etc.)
+Base unity project for creating beat saber mod assets (sabers, notes, platforms, etc.)  
 https://www.youtube.com/watch?v=HZGZsnZc06E
 
 ## Installation
