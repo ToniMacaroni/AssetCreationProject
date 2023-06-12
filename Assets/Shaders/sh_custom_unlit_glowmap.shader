@@ -36,6 +36,8 @@ Shader "BeatSaber/Unlit Glow (glowmap)"
 				float2 uv : TEXCOORD0;
 				float4 vertex : SV_POSITION;
 				half4 color : COLOR;
+
+				UNITY_VERTEX_OUTPUT_STEREO
 			};
 
 			float4 _Color;
@@ -49,6 +51,11 @@ Shader "BeatSaber/Unlit Glow (glowmap)"
 			v2f vert (appdata v)
 			{
 				v2f o;
+
+				UNITY_SETUP_INSTANCE_ID(v);
+				UNITY_INITIALIZE_OUTPUT(v2f, o);
+				UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
+
 				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.uv = v.uv;
 				o.color = v.color;
