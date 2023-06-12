@@ -2,7 +2,7 @@
 Base unity project for creating beat saber mod assets (sabers, notes, platforms, etc.)  
 https://www.youtube.com/watch?v=HZGZsnZc06E
 
-**!!IMPORTANT!!**  
+**:warning::warning:IMPORTANT:warning::warning:**  
 **If you want to create content for Beat Saber 1.29.1 and newer use [this branch](https://github.com/ToniMacaroni/AssetCreationProject/tree/2021-BS1.29) instead**
 
 ## Installation
