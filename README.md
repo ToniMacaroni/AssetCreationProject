@@ -8,5 +8,8 @@ https://www.youtube.com/watch?v=HZGZsnZc06E
 1) [Download](https://github.com/ToniMacaroni/AssetCreationProject/archive/refs/heads/2021-BS1.29.zip) and unzip the project in any folder.
 2) Open the project in unity hub.
 
+## Usage
+Before you do anything make sure to go into the saber export settings (in the toolbar) and fill in your Beat Saber path.
+
 ## Packages
 To view all the packages that you can install (or already have installed, like the SaberToolkit) go to Window->Package Manager (and make sure "Packages: My Registries" is selected at the top ).
